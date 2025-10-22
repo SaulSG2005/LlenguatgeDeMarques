@@ -1,0 +1,41 @@
+
+#bggraphic {
+  background-repeat: no-repeat;
+  background: linear-gradient(to bottom, rgb(42, 155, 231), white);
+}
+
+#header {
+  padding: 30px 0px;
+  margin-bottom: 30px;
+}
+
+h1 {  
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  background:  rgba(179, 239, 250, 0.411);
+}
+
+h2 {
+  color: rgb(255, 208, 0);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.gris{
+      color: rgb(104, 104, 104);
+      
+}
+
+body{
+  background: #fff url('images/gradbg.jpg') top left repeat-x;
+  color: #000;
+  margin: 0;
+  padding:0;
+  border: 0;
+  font-family: Verdana, Arial, sans-serif; font-size: 1em;
+}
