@@ -41,22 +41,22 @@
                 </select>
 
                 <label for="firstName">Nom</label>
-                <input name="firstName" type="text" required>
+                <input id="firstName" name="firstName" type="text" required>
 
                 <label for="lastName">Cognoms</label>
-                <input name="lastName" type="text" required>
+                <input id="lastName" name="lastName" type="text" required>
 
                 <label for="phone">Telèfon</label>
-                <input name="phone" type="tel" pattern="[0-9+()\-\s]{6,}" required>
+                <input id="phone" name="phone" type="tel" pattern="[0-9+()\-\s]{6,}" required>
 
                 <label for="email">Correu electrònic</label>
-                <input name="email" type="email" required>
+                <input id="email" name="email" type="email" required>
 
                 <label for="emailConfirm">Confirma correu electrònic</label>
-                <input name="emailConfirm" type="email" required>
+                <input id="emailConfirm" name="emailConfirm" type="email" required>
 
                 <label for="password">Contrasenya</label>
-                <input name="password" type="password" minlength="6" required>
+                <input id="password" name="password" type="password" minlength="6" required>
             </fieldset>
 
             <fieldset>
@@ -72,16 +72,16 @@
                 </select>
 
                 <label for="persons">Número de persones</label>
-                <input name="persons" type="number" min="1" max="6" value="1" required>
+                <input id="persons" name="persons" type="number" min="1" max="6" value="1" required>
 
                 <label for="checkin">Data d'entrada</label>
-                <input name="checkin" type="date" required>
+                <input id="checkin" name="checkin" type="date" required>
 
                 <label for="checkout">Data de sortida</label>
-                <input name="checkout" type="date" required>
+                <input id="checkout" name="checkout" type="date" required>
 
                 <label for="requests">Peticions especials <small>(no garantides)</small></label>
-                <textarea name="requests" rows="3" placeholder="Per exemple: Menjars portats a la habitació"></textarea>
+                <textarea id="requests" name="requests" rows="3" placeholder="Per exemple: Menjars portats a la habitació"></textarea>
             </fieldset>
 
             <fieldset>
