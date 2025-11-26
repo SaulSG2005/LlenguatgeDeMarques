@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Terror</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" target="_blank">
+                <img src="img/estrelles.jpg" alt="Logo Hotel">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="precios.html">Precios</a></li>
+                <li><a href="reserva.html" class="active">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>Rerva la seva habitació en Hotel Terror</h1>
+    </div>
+    <section class="reserva">
+        <h1>Formulari de reserva</h1>
+
+        <form id="bookingForm" novalidate>
+            <fieldset>
+                <legend>Dades personals</legend>
+
+                <label for="title">Tractament</label>
+                <select id="title" name="title" required>
+                    <option value="">-- Selecciona --</option>
+                    <option>Sr</option>
+                    <option>Sra</option>
+                    <option>Srta</option>
+                </select>
+
+                <label for="firstName">Nom</label>
+                <input name="firstName" type="text" required>
+
+                <label for="lastName">Cognoms</label>
+                <input name="lastName" type="text" required>
+
+                <label for="phone">Telèfon</label>
+                <input name="phone" type="tel" pattern="[0-9+()\-\s]{6,}" required>
+
+                <label for="email">Correu electrònic</label>
+                <input name="email" type="email" required>
+
+                <label for="emailConfirm">Confirma correu electrònic</label>
+                <input name="emailConfirm" type="email" required>
+
+                <label for="password">Contrasenya</label>
+                <input name="password" type="password" minlength="6" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dades de la reserva</legend>
+
+                <label for="roomType">Tipus d'habitació</label>
+                <select id="roomType" name="roomType" required>
+                    <option value="">-- Selecciona --</option>
+                    <option value="individual">Habitació individual</option>
+                    <option value="double">Habitació doble</option>
+                    <option value="double_sup">Habitació doble superior</option>
+                    <option value="triple">Habitació triple</option>
+                </select>
+
+                <label for="persons">Número de persones</label>
+                <input name="persons" type="number" min="1" max="6" value="1" required>
+
+                <label for="checkin">Data d'entrada</label>
+                <input name="checkin" type="date" required>
+
+                <label for="checkout">Data de sortida</label>
+                <input name="checkout" type="date" required>
+
+                <label for="requests">Peticions especials <small>(no garantides)</small></label>
+                <textarea name="requests" rows="3" placeholder="Per exemple: Menjars portats a la habitació"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dades addicionals</legend>
+
+                <label class="checkbox"><input type="checkbox" id="parking" name="parking" value="parking"> Parking cobert (8€/nit)
+                    <span class="nota">Parking exterior gratuït disponible</span>
+                </label>
+
+                <label for="arrival">Hora prevista d'arribada</label>
+                <input id="arrival" name="arrival" type="time">
+
+                <label class="checkbox"><input type="checkbox" id="breakfast" name="breakfast" value="breakfast"> Afegir esmorzar (5€/dia)</label>
+            </fieldset>
+
+            <div class="form-accions">
+                <button type="submit">Enviar Reserva</button>
+                <button type="reset">Netejar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div>
+            <p>Activitat realitzada per <strong>Saul Subirats Gasparin</strong></p>
+            <p>Fotografies de la portada <a class="linkblanc" href="https://unsplash.com" target="_blank">Unsplash</a>   <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank"><img class="cc" src="img/creative-commons.png" alt="CC BY-SA"></a></p> 
+        </div>
+    </footer>
+</body>
+</html>
