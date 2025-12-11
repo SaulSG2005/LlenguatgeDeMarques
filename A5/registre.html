@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Terror</title>
+    <link rel="stylesheet" href="css/estil.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" target="_blank">
+                <img src="Img/logo-tenda.png" alt="Logo Tenda">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="productes.html">Productes</a></li>
+                <li><a href="registre.html" class="active">Registrat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>Registrat en la nostra tenda Online</h1>
+    </div>
+    <section class="reserva">
+        <h1>Formulari de registre</h1>
+
+        <form id="bookingForm" novalidate>
+            <fieldset>
+                <legend>Dades personals</legend>
+
+                <label>Nom</label>
+                <input name="firstName" type="text" required>
+
+                <label for="lastName">Cognoms</label>
+                <input name="lastName" type="text" required>
+
+                <label for="phone">Telèfon</label>
+                <input name="phone" type="tel" pattern="[0-9+()\-\s]{6,}" required>
+
+                <label for="email">Correu electrònic</label>
+                <input name="email" type="email" required>
+
+                <label for="password">Contrasenya</label>
+                <input name="password" type="password" minlength="4" maxlength="8" required>
+
+                <label for="passwordConfirm">Confirma Contrasenya</label>
+                <input name="passwordConfirm" type="password" minlength="4" maxlength="8" required>
+
+            </fieldset>
+
+            <div class="form-accions">
+                <button type="submit">Enviar Reserva</button>
+                <button type="reset">Netejar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div>
+            <p>Activitat realitzada per <strong>Saul Subirats Gasparin</strong></p>
+            <p>Fotografies de la portada <a class="linkblanc" href="https://unsplash.com" target="_blank">Unsplash</a>   <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank"><img class="cc" src="Img/creative-commons.png" alt="CC BY-SA"></a></p> 
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
