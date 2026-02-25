@@ -1,0 +1,64 @@
+{
+  "horaris_renfe": {
+    "origen": "Tortosa",
+    "desti": "Tarragona",
+    "data": "06/11/2023",
+    "trens": [
+      {
+        "sortida": "09:23",
+        "arribada": "10:47",
+        "durada": "01:24",
+        "tipus": "Regional Express",
+        "preu_senzill": 8.05
+      },
+      {
+        "sortida": "11:32",
+        "arribada": "12:50",
+        "durada": "01:18",
+        "tipus": "Regional Express",
+        "preu_senzill": 8.05
+      },
+      {
+        "sortida": "13:51",
+        "arribada": "15:00",
+        "durada": "01:09",
+        "tipus": "Regional Express",
+        "preu_senzill": 8.05
+      },
+      {
+        "sortida": "15:37",
+        "arribada": "16:56",
+        "durada": "01:19",
+        "tipus": "Regional Express",
+        "preu_senzill": 8.05
+      },
+      {
+        "sortida": "16:32",
+        "arribada": "17:51",
+        "durada": "01:19",
+        "tipus": "Regional Express",
+        "preu_senzill": 8.05
+      },
+      {
+        "sortida": "18:30",
+        "arribada": "19:51",
+        "durada": "01:21",
+        "tipus": "Regional Express",
+        "preu_senzill": 8.05
+      },
+      {
+        "sortida": "20:55",
+        "arribada": "22:16",
+        "durada": "01:21",
+        "tipus": "Regional Express",
+        "preu_senzill": 8.05
+      }
+    ],
+    "tarifes_eur": {
+      "senzill_RE": 8.05,
+      "bono_expres_RE": 57.5,
+      "abonament_mensual_RE": 148.0,
+      "abonament_trimestral_RE": 395.7
+    }
+  }
+}

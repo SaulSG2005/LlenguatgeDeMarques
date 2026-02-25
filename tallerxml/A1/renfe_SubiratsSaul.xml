@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horaris_renfe>
+  <metadades>
+    <origen>Tortosa</origen>
+    <desti>Tarragona</desti>
+    <data>06/11/2023</data>
+  </metadades>
+  
+  <trens>
+    <tren>
+      <sortida>09:23</sortida>
+      <arribada>10:47</arribada>
+      <durada>01:24</durada>
+      <tipus>Regional Express</tipus>
+      <preu_senzill>8.05</preu_senzill>
+    </tren>
+    <tren>
+      <sortida>11:32</sortida>
+      <arribada>12:50</arribada>
+      <durada>01:18</durada>
+      <tipus>Regional Express</tipus>
+      <preu_senzill>8.05</preu_senzill>
+    </tren>
+    <tren>
+      <sortida>13:51</sortida>
+      <arribada>15:00</arribada>
+      <durada>01:09</durada>
+      <tipus>Regional Express</tipus>
+      <preu_senzill>8.05</preu_senzill>
+    </tren>
+    <tren>
+      <sortida>15:37</sortida>
+      <arribada>16:56</arribada>
+      <durada>01:19</durada>
+      <tipus>Regional Express</tipus>
+      <preu_senzill>8.05</preu_senzill>
+    </tren>
+    <tren>
+      <sortida>16:32</sortida>
+      <arribada>17:51</arribada>
+      <durada>01:19</durada>
+      <tipus>Regional Express</tipus>
+      <preu_senzill>8.05</preu_senzill>
+    </tren>
+    <tren>
+      <sortida>18:30</sortida>
+      <arribada>19:51</arribada>
+      <durada>01:21</durada>
+      <tipus>Regional Express</tipus>
+      <preu_senzill>8.05</preu_senzill>
+    </tren>
+    <tren>
+      <sortida>20:55</sortida>
+      <arribada>22:16</arribada>
+      <durada>01:21</durada>
+      <tipus>Regional Express</tipus>
+      <preu_senzill>8.05</preu_senzill>
+    </tren>
+  </trens>
+
+  <tarifes_regionals moneda="EUR">
+    <senzill_RE>8.05</senzill_RE>
+    <bono_expres_RE>57.5</bono_expres_RE>
+    <abonament_mensual_RE>148.0</abonament_mensual_RE>
+    <abonament_trimestral_RE>395.7</abonament_trimestral_RE>
+  </tarifes_regionals>
+</horaris_renfe>
