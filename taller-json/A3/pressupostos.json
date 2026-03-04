@@ -1,0 +1,58 @@
+{
+  "pressupost": {
+    "num_pressupost": "2026-001",
+    "empresa": "TecnoSolucions Informàtica S.L.",
+    "client": "Sol·licitud per correu electrònic",
+    "data_emissio": "2026-03-04",
+    "productes": [
+      {
+        "id": 1,
+        "model": "iPhone 15 Pro",
+        "marca": "Apple",
+        "gamma": "Premium",
+        "preu": 1219.00,
+        "especificacions": {
+          "processador": "A17 Pro chip",
+          "pantalla": "6.1 polzades Super Retina XDR",
+          "emmagatzematge": "256 GB",
+          "camera": "Sistema de triple càmera (48MP principal)",
+          "material": "Titani de grau aeroespacial"
+        }
+      },
+      {
+        "id": 2,
+        "model": "Samsung Galaxy S24",
+        "marca": "Samsung",
+        "gamma": "Alta",
+        "preu": 909.00,
+        "especificacions": {
+          "processador": "Exynos 2400",
+          "pantalla": "6.2 polzades Dynamic AMOLED 2X",
+          "emmagatzematge": "256 GB",
+          "camera": "Triple càmera amb IA (50MP principal)",
+          "funcio_destacada": "Galaxy AI (Traducció en temps real)"
+        }
+      },
+      {
+        "id": 3,
+        "model": "Google Pixel 8a",
+        "marca": "Google",
+        "gamma": "Mitjana-Alta (Econòmica)",
+        "preu": 549.00,
+        "especificacions": {
+          "processador": "Google Tensor G3",
+          "pantalla": "6.1 polzades Actua Display",
+          "emmagatzematge": "128 GB",
+          "camera": "Doble càmera (64MP principal)",
+          "suport": "7 anys d'actualitzacions de seguretat"
+        }
+      }
+    ],
+    "condicions_venda": {
+      "iva": "21% inclòs",
+      "validesa_oferta": "15 dies",
+      "enviament": "Gratuït a domicili",
+      "garantia": "3 anys segons normativa vigent"
+    }
+  }
+}

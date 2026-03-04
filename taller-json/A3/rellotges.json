@@ -1,0 +1,110 @@
+[
+  {
+    "Producte": "Relojes Emporio Armani Chronograph AR2434",
+    "Codi": "AR2434",
+    "Preu actual": "102,30 €",
+    "PVP recomanat": "349,00 €",
+    "Informació general": {
+      "Marca": "Emporio Armani",
+      "Model": "AR2434 (Edició Chronograph)",
+      "Gènere": "Home",
+      "Moviment": "Quars (Bateria)",
+      "Resistència al agua": "50m (Apte per dutxa)",
+      "Garantia": "24 mesos",
+      "Mesures": {
+        "Diàmetre": "43 mm",
+        "Gruix": "14 mm"
+      }
+    },
+    "Més informació": {
+      "Tipus": ["Estil esportiu", "De moda"],
+      "Calendari": "Sí",
+      "Funcions especials": "Cronògraf"
+    },
+    "Caixa i esfera": {
+      "Color de la caixa": "Platejat",
+      "Color de l'esfera": "Negre",
+      "Material de la caixa": "Acer inoxidable",
+      "Cristall": "Mineral",
+      "Tipus d'esfera": "Analògic",
+      "Forma del rellotge": "Rodona"
+    },
+    "Corretja": {
+      "Color de la corretja": "Platejat",
+      "Material de la corretja": "Acer inoxidable",
+      "Contorn màxim del canell": "200mm"
+    }
+  },
+  {
+    "Producte": "Rellotges Casio Vintage A168WG-9EF",
+    "Codi": "A168WG-9EF",
+    "Preu actual": "50,90 €",
+    "PVP recomanat": "59,90 €",
+    "Informació general": {
+      "Marca": "Casio",
+      "Model": "A168WG-9EF (Edició Vintage)",
+      "Gènere": "Home",
+      "Moviment": "Quars (Bateria)",
+      "Resistència al aqua": "30m (Protecció humitat)",
+      "Garantia": "24 mesos",
+      "Mesures": {
+        "Diàmetre": "36,3 mm",
+        "Gruix": "9,6 mm"
+      },
+      "Pes": "51g"
+    },
+    "Més informació": {
+      "Tipus": ["De moda", "Estil retro"],
+      "Calendari": "Sí",
+      "Funcions especials": ["Cronògraf", "Alarma", "Il·luminació"]
+    },
+    "Caixa i esfera": {
+      "Color de la caixa": "Daurat",
+      "Color de l'esfera": "LCD",
+      "Material de la caixa": "Acer inox. - Plàstic",
+      "Cristall": "Acrílic",
+      "Tipus d'esfera": "Digital",
+      "Forma del rellotge": "Quadrat"
+    },
+    "Corretja": {
+      "Color de la corretja": "Daurat",
+      "Material de la corretja": "Acer inoxidable",
+      "Contorn màxim del canell": "195 mm"
+    }
+  },
+  {
+    "Producte": "Rellotges Tommy Hilfiger 1791788",
+    "Codi": "1791788",
+    "Preu actual": "87,60 €",
+    "Informació general": {
+      "Marca": "Tommy Hilfiger",
+      "Model": "1791788 (Col·lecció Bank)",
+      "Gènere": "Home",
+      "Moviment": "Quars (Bateria)",
+      "Resistència al agua": "50m (Apte per dutxa)",
+      "Garantia": "24 mesos",
+      "Mesures": {
+        "Diàmetre": "45 mm",
+        "Gruix": "10,5 mm"
+      }
+    },
+    "Més informació": {
+      "Tipus": "De moda",
+      "Calendari": "Sí",
+      "Funcions especials": "Multifunció"
+    },
+    "Caixa i esfera": {
+      "Color de la caixa": "Platejat",
+      "Color de l'esfera": "Blau",
+      "Material de la caixa": "Acer inoxidable",
+      "Cristall": "Mineral",
+      "Tipus d'esfera": "Analògic",
+      "Forma del rellotge": "Rodona"
+    },
+    "Corretja": {
+      "Color de la corretja": "Platejat",
+      "Material de la corretja": "Acer inoxidable (Malla milanesa)",
+      "Contorn màxim del canell": "195mm"
+    }
+  }
+]
