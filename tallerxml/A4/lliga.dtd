@@ -1,0 +1,15 @@
+<!ELEMENT futbol (jornada+)>
+<!ELEMENT jornada (partit+)>
+
+<!ATTLIST jornada num CDATA #REQUIRED>
+<!ELEMENT partit (dia, equip, equip)>
+
+<!ATTLIST partit num CDATA #REQUIRED>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT equip (nom, resultat, gols)>
+<!ELEMENT nom (#PCDATA)>
+
+<!ATTLIST equip juga (local | visitant) #REQUIRED>
+<!ELEMENT resultat (#PCDATA)>
+<!ELEMENT gols (jugador*)>
+<!ELEMENT jugador (#PCDATA)>
