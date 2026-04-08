@@ -1,0 +1,199 @@
+{
+    "Classificació": [
+        {
+            "posició": 1,
+            "nick-player": "player1",
+            "personatge": "Mario",
+            "color": "roig",
+            "Temps": "10:55",
+            "voltes": 4,
+            "Accidents": 0,
+            "Nitros": 3
+        },
+        {
+            "posició": 2,
+            "nick-player": "player2",
+            "personatge": "Luigi",
+            "color": "verd",
+            "Temps": "11:05",
+            "voltes": 4,
+            "Accidents": 1,
+            "Nitros": 2
+        },
+        {
+            "posició": 3,
+            "nick-player": "player3",
+            "personatge": "Peach",
+            "color": "rosa",
+            "Temps": "11:15",
+            "voltes": 4,
+            "Accidents": 2,
+            "Nitros": 1
+        },
+        {
+            "posició": 4,
+            "nick-player": "player4",
+            "personatge": "Toad",
+            "color": "blau",
+            "Temps": "11:25",
+            "voltes": 4,
+            "Accidents": 3,
+            "Rookie": "Si"
+        },
+        {
+            "posició": 5,
+            "nick-player": "player5",
+            "personatge": "Yoshi",
+            "color": "verd",
+            "Temps": "11:35",
+            "voltes": 4,
+            "Accidents": 0,
+            "Nitros": 3
+        },
+        {
+            "posició": 6,
+            "nick-player": "player6",
+            "personatge": "Bowser",
+            "color": "roig",
+            "Temps": "11:45",
+            "voltes": 4,
+            "Accidents": 1,
+            "Nitros": 2
+        },
+        {
+            "posició": 7,
+            "nick-player": "player7",
+            "personatge": "Donkey Kong",
+            "Temps": "11:55",
+            "voltes": 4,
+            "Accidents": 2
+        },
+        {
+            "posició": 8,
+            "nick-player": "player8",
+            "personatge": "Wario",
+            "color": "groc",
+            "Temps": "12:05",
+            "voltes": 4,
+            "Accidents": 3,
+            "Nitros": 0
+        },
+        {
+            "posició": 9,
+            "nick-player": "player9",
+            "personatge": "Waluigi",
+            "color": "lila",
+            "Temps": "12:15",
+            "voltes": 4,
+            "Accidents": 0,
+            "Nitros": 3
+        },
+        {
+            "posició": 10,
+            "nick-player": "player10",
+            "personatge": "Daisy",
+            "color": "taronja",
+            "Temps": "12:25",
+            "voltes": 4,
+            "Accidents": 1,
+            "Nitros": 2,
+            "Rookie": "Si"
+        },
+        {
+            "posició": 11,
+            "nick-player": "player11",
+            "personatge": "Toadette",
+            "Temps": "12:35",
+            "voltes": 4,
+            "Accidents": 2,
+            "Nitros": 1
+        },
+        {
+            "posició": 12,
+            "nick-player": "player12",
+            "personatge": "Birdo",
+            "color": "rosa",
+            "Temps": "12:45",
+            "voltes": 4,
+            "Accidents": 3
+        },
+        {
+            "posició": 13,
+            "nick-player": "player13",
+            "personatge": "Diddy Kong",
+            "Temps": "12:55",
+            "voltes": 4,
+            "Accidents": 0,
+            "Nitros": 3
+        },
+        {
+            "posició": 14,
+            "nick-player": "player14",
+            "personatge": "Bowser Jr.",
+            "color": "verd",
+            "Temps": "13:05",
+            "voltes": 4,
+            "Accidents": 1,
+            "Nitros": 2,
+            "Rookie": "Si"
+        },
+        {
+            "posició": 15,
+            "nick-player": "player15",
+            "personatge": "King Boo",
+            "color": "blanc",
+            "Temps": "13:15",
+            "voltes": 4,
+            "Accidents": 2
+        },
+        {
+            "posició": 16,
+            "nick-player": "player16",
+            "personatge": "Rosalina",
+            "color": "blau",
+            "Temps": "13:25",
+            "voltes": 4,
+            "Accidents": 3,
+            "Rookie": "Si"
+        },
+        {
+            "posició": 17,
+            "nick-player": "player17",
+            "personatge": "Shy Guy",
+            "color": "negre",
+            "Temps": "13:35",
+            "voltes": 4,
+            "Accidents": 0,
+            "Nitros": 3
+        },
+        {
+            "posició": 18,
+            "nick-player": "player18",
+            "personatge": "Lakitu",
+            "color": "verd",
+            "Temps": "13:45",
+            "voltes": 4,
+            "Accidents": 1,
+            "Nitros": 2
+        },
+        {
+            "posició": 19,
+            "nick-player": "player19",
+            "personatge": "Metal Mario",
+            "Temps": "13:55",
+            "voltes": 4,
+            "Accidents": 2,
+            "Nitros": 1,
+            "Rookie": "Si"
+        },
+        {
+            "posició": 20,
+            "nick-player": "player20",
+            "personatge": "Pink Gold Peach",
+            "color": "rosa",
+            "Temps": "14:05",
+            "voltes": 4,
+            "Accidents": 3
+        }
+    ]
+}

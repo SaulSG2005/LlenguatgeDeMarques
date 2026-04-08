@@ -1,0 +1,44 @@
+{
+    "Guanyador": "FC Barcelona",
+    "Partit": [
+        {
+            "nom-equip": "FC Barcelona",
+            "nick-players": [
+                "XD_Messi",
+                "fcb_2025_barca"
+            ],
+            "gols": [
+                {
+                    "marcador": "1-0",
+                    "minut": "13:45",
+                    "jugador": "Rafinha"
+                },
+                {
+                    "marcador": "2-0",
+                    "minut": "45:00",
+                    "jugador": "Lewandowski",
+                    "penal": true
+                }
+            ],
+            "targetes": [
+                {
+                    "tipus": "groga",
+                    "minut": "60:00",
+                    "jugador": "Gavi"
+                }
+            ]
+        },
+        {
+            "nom-equip": "Real Madrid",
+            "nick-players": ["ala_madrid"],
+            "gols": [],
+            "targetes": [
+                {
+                    "tipus": "roja",
+                    "minut": "75:00",
+                    "jugador": "Vini JR"
+                }
+            ]
+        }
+    ]
+}

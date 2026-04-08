@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="biblioteca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="editorial"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="editorial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="raosocial"/>
+        <xs:element ref="adreca"/>
+        <xs:element minOccurs="0" ref="telefon"/>
+        <xs:element minOccurs="0" ref="contacte"/>
+        <xs:element maxOccurs="unbounded" ref="llibre"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="raosocial" type="xs:string"/>
+  <xs:element name="adreca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="carrer"/>
+        <xs:element ref="numero"/>
+        <xs:element minOccurs="0" ref="pis"/>
+        <xs:element ref="codipostal"/>
+        <xs:element ref="poblacio"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="carrer" type="xs:string"/>
+  <xs:element name="numero" type="xs:string"/>
+  <xs:element name="pis" type="xs:string"/>
+  <xs:element name="codipostal" type="xs:string"/>
+  <xs:element name="poblacio" type="xs:string"/>
+  <xs:element name="telefon" type="xs:string"/>
+  <xs:element name="contacte" type="xs:string"/>
+  <xs:element name="llibre">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="titol"/>
+        <xs:element ref="publicacio"/>
+        <xs:element ref="autor"/>
+        <xs:element ref="premis"/>
+        <xs:element ref="argument"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titol" type="xs:string"/>
+  <xs:element name="publicacio" type="xs:string"/>
+  <xs:element name="autor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nom"/>
+        <xs:element maxOccurs="unbounded" ref="cognom"/>
+        <xs:element ref="adreca"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nom" type="xs:string"/>
+  <xs:element name="cognom" type="xs:string"/>
+  <xs:element name="premis">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="premi"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="premi" type="xs:string"/>
+  <xs:element name="argument" type="xs:string"/>
+</xs:schema>

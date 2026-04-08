@@ -1,0 +1,44 @@
+{
+    "nom-equip": "Equip A",
+    "jugadors": [
+        {
+            "num-jugador": 1,
+            "DNI": "12345678A",
+            "nom": "Joan",
+            "cognom": "Pérez",
+            "edat": 16,
+            "ciutat": "Barcelona",
+            "adreça": "Carrer Example, 123",
+            "email": "joan.perez@example.com"
+        },
+        {
+            "num-jugador": 2,
+            "DNI": "87654321B",
+            "nom": "Maria",
+            "cognom": "Garcia",
+	    "edat": 18,
+            "ciutat": "Barcelona",
+            "adreça": "Carrer Example, 456",
+            "telèfon": 931234568,
+            "email": "maria.garcia@example.com"
+        },
+        {
+            "num-jugador": 3,
+            "DNI": "98765432C",
+            "nom": "Anna",
+            "cognom": "Martí",
+            "ciutat": "Girona",
+            "email": "amarti@example.com"
+        },
+        {
+            "num-jugador": 4,
+            "DNI": "43219876D",
+            "nom": "Pere",
+            "cognom": "Rodríguez",
+            "ciutat": "Lleida",
+            "adreça": "Carrer Lleida, 34",
+            "telèfon": 973123456,
+            "email": "prodriguez@example.com"
+        }
+    ]
+}
