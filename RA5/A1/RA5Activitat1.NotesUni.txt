@@ -1,0 +1,19 @@
+Programació 1
+--------------------------------------
+Harry Potter -- 6
+Hermione Granger -- 10
+Ronald Weasley -- 2
+Neville Longbottom -- 4
+Geany Weasley -- 7
+Oliver Wood -- 5
+Sirius Black -- 8
+
+Bases de dades
+--------------------------------------
+Harry Potter -- 5
+Hermione Granger -- 9
+Ronald Weasley -- 4
+Neville Longbottom -- 1
+Geany Weasley -- 4
+Oliver Wood -- 5
+Voldemort -- 0

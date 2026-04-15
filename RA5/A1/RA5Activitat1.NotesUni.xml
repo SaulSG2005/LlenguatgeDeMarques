@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="RA5Activitat1.NotesUni.css"?>
+<notes>
+	<assignatura>
+		<nom_assignatura>Programació 1</nom_assignatura>
+		<alumnes>
+			<alumne>
+				<nom>Harry Potter</nom>
+				<nota>6</nota>
+			</alumne>
+			<alumne>
+				<nom>Hermione Granger</nom>
+				<nota>10</nota>
+			</alumne>
+			<alumne>
+				<nom>Ronald Weasley</nom>
+				<nota>2</nota>
+			</alumne>
+			<alumne>
+				<nom>Neville Longbottom</nom>
+				<nota>4</nota>
+			</alumne>
+			<alumne>
+				<nom>Geany Weasley</nom>
+				<nota>7</nota>
+			</alumne>
+			<alumne>
+				<nom>Oliver Wood</nom>
+				<nota>5</nota>
+			</alumne>
+			<alumne>
+				<nom>Sirius Black</nom>
+				<nota>8</nota>
+			</alumne>
+		</alumnes>
+	</assignatura>
+	<assignatura>
+		<nom_assignatura>Bases de dades</nom_assignatura>
+		<alumnes>
+			<alumne>
+				<nom>Harry Potter</nom>
+				<nota>5</nota>
+			</alumne>
+			<alumne>
+				<nom>Hermione Granger</nom>
+				<nota>9</nota>
+			</alumne>
+			<alumne>
+				<nom>Ronald Weasley</nom>
+				<nota>4</nota>
+			</alumne>
+			<alumne>
+				<nom>Neville Longbottom</nom>
+				<nota>1</nota>
+			</alumne>
+			<alumne>
+				<nom>Geany Weasley</nom>
+				<nota>4</nota>
+			</alumne>
+			<alumne>
+				<nom>Oliver Wood</nom>
+				<nota>5</nota>
+			</alumne>
+			<alumne>
+				<nom>Voldemort</nom>
+				<nota>0</nota>
+			</alumne>
+		</alumnes>
+	</assignatura>
+</notes>
+		

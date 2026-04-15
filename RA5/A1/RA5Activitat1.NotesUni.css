@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+nom_assignatura{
+    color: rgb(10, 201, 20);
+    font-size: large;
+    display: block;
+}
+
+alumne{
+    color: rgb(255, 0, 0);
+    margin-left: 10px;
+    font-size: small;
+    display: block;
+}
+nota{
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    font-size: small;
+}
